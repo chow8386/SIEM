@@ -22,7 +22,7 @@ Triển khai 3 kịch bản tấn công chính để kiểm tra khả năng phá
 
 ### 1. Tấn công Brute Force
 Tấn công brute force cổng 3389 (RDP)
-![alt text](image/attack_1.png)
+![alt text](image/attack_bf.png)
 
 #### Rule detect:
 
@@ -34,7 +34,7 @@ where count >= 100
 ```
 
 Theo dõi sự kiện đăng nhập thất bại, có Event Code 4625. Nếu có lớn hơn 100 lần đăng nhập trong 5 phút thì gửi thông báo đến admin.
-![alt text](image/alert_1.png)
+![alt text](image/alert_bf.png)
 
 
 #### Phản ứng tự động:
